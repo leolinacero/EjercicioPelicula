@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Views.VentanaDetalle">
+  <grid id="27dc6" binding="panel4" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="64c73" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="2c1ee" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="Detalle de la Pelicula"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="f0f89" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="2">
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="c7a54" class="javax.swing.JButton" binding="eliminarButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Eliminar"/>
+            </properties>
+          </component>
+          <component id="76e4c" class="javax.swing.JButton" binding="atrasButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Atras"/>
+            </properties>
+          </component>
+          <component id="34220" class="javax.swing.JButton" binding="salirButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Salir"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="1b67f" layout-manager="GridLayoutManager" row-count="7" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="4d21c" class="javax.swing.JLabel" binding="estado">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Estado de la Copia"/>
+            </properties>
+          </component>
+          <component id="9e3e4" class="javax.swing.JLabel" binding="soporte">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Soporte"/>
+            </properties>
+          </component>
+          <component id="7cfa" class="javax.swing.JLabel" binding="genero">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Género"/>
+            </properties>
+          </component>
+          <component id="60cf0" class="javax.swing.JLabel" binding="titulo">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Titulo"/>
+            </properties>
+          </component>
+          <component id="b0ae2" class="javax.swing.JLabel" binding="descripcion">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Descripcion "/>
+            </properties>
+          </component>
+          <component id="935b3" class="javax.swing.JLabel" binding="año">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Año"/>
+            </properties>
+          </component>
+          <component id="c1d6b" class="javax.swing.JLabel" binding="director">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Director"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
